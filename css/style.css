@@ -14,8 +14,8 @@ h1, h2, h3, h4, h5, h6{
 
 /*Header*/
 .navbar-default .navbar-nav>li>a {
-color: #777;
-text-transform: uppercase;
+	color: #777;
+	text-transform: uppercase;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: #f74d65;
@@ -80,16 +80,16 @@ header{
 	font-size: 14px;
 }
 .single_progress_bar .progress {
-height: 1px;
-margin-bottom: 20px;
-overflow: hidden;
-background-color: #d5d5d5;
-border-radius: 0px;
--webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	height: 1px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	background-color: #d5d5d5;
+	border-radius: 0px;
+	-webkit-box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
 }
 .single_progress_bar .progress-bar {
-background-color: #2d3334;
+	background-color: #2d3334;
 }
 .single_progress_bar h2{
 	color: 000;
@@ -123,42 +123,42 @@ background-color: #2d3334;
 	
 }
 .fun_facts .section_overlay{
-background: rgba(71,71,71,.8);
-padding-bottom: 30px;
+	background: rgba(71,71,71,.8);
+	padding-bottom: 30px;
 }
 .single_count{
-padding-top: 30px;	
+	padding-top: 30px;
 }
 .single_count i{
 	color: #f73b56;
 	font-size: 24px;
 }
 .single_count h3{
-font-family: 'Montserrat', sans-serif;
-color: #fff;
-font-size: 40px;
-font-weight: bold;
-margin-bottom: 0px;	
+	font-family: 'Montserrat', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 0px;	
 }
 .single_count p{
-font-family: 'Dosis', sans-serif;
-color: #fff;
-font-size: 14px;
-text-transform: uppercase;
-position: relative;	
+	font-family: 'Dosis', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	text-transform: uppercase;
+	position: relative;	
 }
 .single_count p:before{
-content: "";
-position: absolute;
-width: 16px;
-height: 1px;
-left: 0;
-bottom: -4px;
-background: #ef4251;
+	content: "";
+	position: absolute;
+	width: 16px;
+	height: 1px;
+	left: 0;
+	bottom: -4px;
+	background: #ef4251;
 }
 .imac{
-position: relative;
-margin-top: -40px;	
+	position: relative;
+	margin-top: -40px;	
 }
 .imac img{
 	width: 100%;
@@ -176,47 +176,45 @@ margin-top: -40px;
 }
 .single_image img{
 	width: 100%;
-
 }
 .single_image:hover div.image_overlay{
 	opacity: 1;
 }
 
 .image_overlay{
-position: absolute;
-width: 100%;
-height: 100%;
-background: rgba(247,77,101,.9);
-left: 0;
-top: 0;
-opacity: 0;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: rgba(247,77,101,.9);
+	left: 0;
+	top: 0;
+	opacity: 0;
 	transition: all 1s;
-
 }
 .image_overlay a{
-position: absolute;
-top: 20px;
-right: 20px;
-color: #fff;
-text-decoration: none;
-text-transform: uppercase;	
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;	
 }
 .image_overlay h2{
-position: absolute;
-bottom: 28px;
-left: 20px;
-font-size: 25px;
-color: #fff;
-text-transform: uppercase;
-letter-spacing: 3px;	
+	position: absolute;
+	bottom: 28px;
+	left: 20px;
+	font-size: 40px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;	
 }
 .image_overlay h4{
-position: absolute;
-bottom: 11px;
-left: 20px;
-color: #fff;
-font-size: 14px;
-text-transform: uppercase;	
+	position: absolute;
+	bottom: 11px;
+	left: 20px;
+	color: #fff;
+	font-size: 17px;
+	text-transform: uppercase;	
 }
 .no_padding{
 	padding-left: 0px;
@@ -282,26 +280,26 @@ text-transform: uppercase;
 /*Contact*/
 
 .single_contact_info{
-padding-bottom: 21px;	
+	padding-bottom: 21px;
 }
 .single_contact_info h2{
-text-transform: uppercase;
-color: #3d3d3d;
-font-size: 18px;
-letter-spacing: 3px;
-margin-bottom: 1px;	
-position: relative;	
+	text-transform: uppercase;
+	color: #3d3d3d;
+	font-size: 18px;
+	letter-spacing: 3px;
+	margin-bottom: 1px;	
+	position: relative;	
 }
 .single_contact_info p{
-position: absolute;	
-font-size: 15px;
-color: #3d3d3d;	
+	position: absolute;	
+	font-size: 15px;
+	color: #3d3d3d;	
 }
 
 
 .work-with {
-padding-bottom: 60px;
-padding-top: 0px;
+	padding-bottom: 60px;
+	padding-top: 0px;
 }
 .work-with h3{
 	font-size: 14px;
@@ -310,3 +308,45 @@ padding-top: 0px;
 }
 
 
+.row{
+	text-align: center;
+}
+
+#contactrow1{
+	align-items: center;
+	display: inline-block;
+	margin: 0px 50px 0px 50px;
+}
+
+#contactrow2{
+	align-items: center;
+	display: inline-block;
+	margin: 0px 130px 0px 90px;
+}
+
+.work_images{
+	width: 100%;
+	padding: 5px;
+	align-items: center;
+	text-align: center;
+}
+
+.work_image_display{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+.zoom {
+	padding: 50px;
+	background-color: #f74d65;
+	transition: transform 1s; /* Animation */
+	width: 48%;
+	height: 30%;
+	margin: 0 auto;
+	display: inline-block
+  }
+  
+  .zoom:hover {
+	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  }
