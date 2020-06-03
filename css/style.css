@@ -103,6 +103,9 @@ header{
 	margin-bottom: 10px;
 	line-height: 21px;
 }
+.about_title{
+	text-align: center;
+}
 .about_title h2{
 	font-size: 25px;
 	color: #3d3d3d;
@@ -115,6 +118,45 @@ header{
 .about_title img{
 	margin-bottom: 20px;
 }
+
+.about_us_p{
+	width: 50%;
+}
+
+/*Accordion animation*/
+
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 18px;
+	width: 50%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 20px;
+	transition: 1s;
+}
+
+.active, .accordion:hover {
+	background-color: #ccc;
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.4s ease-out;
+	width: 50%;
+}
+
+.about_layout{
+	display: inline-block;
+}
+
+
+
 /*Fun Facts*/
 .fun_facts{
 	background: url(../images/header_bg.jpg);
@@ -324,11 +366,12 @@ header{
 	margin: 0px 130px 0px 90px;
 }
 
-.work_images{
+#work_images{
 	width: 100%;
 	padding: 5px;
-	align-items: center;
+	align-content: center;
 	text-align: center;
+	
 }
 
 .work_image_display{
@@ -344,9 +387,11 @@ header{
 	width: 48%;
 	height: 30%;
 	margin: 0 auto;
-	display: inline-block
+	display: inline-block;
+	align-items: center;
   }
   
   .zoom:hover {
 	transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
   }
+
