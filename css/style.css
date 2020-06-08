@@ -101,6 +101,7 @@ header{
 
 .about_layout{
 	float: left;
+	text-align: center;
 }
 
 #about_pre{
@@ -109,8 +110,8 @@ header{
 	margin-top: 50px;
 	margin-bottom: 10px;
 	line-height: 21px;
-	width: 50%;
-	align: left;
+	width: 100%;
+	align: center;
 }
 .about_title{
 	text-align: center;
@@ -135,7 +136,7 @@ header{
 	color: #444;
 	cursor: pointer;
 	padding: 18px;
-	width: 50%;
+	width: 100%;
 	border: none;
 	text-align: left;
 	outline: none;
@@ -153,20 +154,9 @@ header{
 	max-height: 0;
 	overflow: hidden;
 	transition: max-height 0.4s ease-out;
-	width: 50%;
+	width: 100%;
 }
 
-/*Fun Facts*/
-.fun_facts{
-	background: url(../images/header_bg.jpg);
-	background-attachment: fixed !important;
-	background-repeat: repeat;
-	
-}
-.fun_facts .section_overlay{
-	background: rgba(71,71,71,.8);
-	padding-bottom: 30px;
-}
 .single_count{
 	padding-top: 30px;
 }
