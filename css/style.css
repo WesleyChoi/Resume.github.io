@@ -107,7 +107,6 @@ header{
 #about_pre{
 	font-size: 14px;
 	color: #red;
-	margin-bottom: 10px;
 	line-height: 21px;
 	width: 100%;
 	align: center;
@@ -119,9 +118,7 @@ header{
 	font-size: 25px;
 	color: #3d3d3d;
 	text-transform: uppercase;
-	margin-top: 85px;
 	letter-spacing: 6px;
-	margin-bottom: 11px;
 }
 
 .about_title img{
