@@ -306,13 +306,19 @@ header{
 
 /*work images*/
 
-#work_images_2{
+.work_images_2{
 	align-items: center;
 	text-align: center;
-
+	margin-left: auto;
+	margin-right: auto;
 }
 
-
+.work_description{
+	align-items: center;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
 
 
 
