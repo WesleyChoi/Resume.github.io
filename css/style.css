@@ -304,6 +304,18 @@ header{
 	border-bottom: 1px solid #ddd;
 }
 
+/*work images*/
+
+#work_images_2{
+	align-items: center;
+	text-align: center;
+
+}
+
+
+
+
+
 /*Contact*/
 
 .single_contact_info{
